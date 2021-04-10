@@ -1,0 +1,109 @@
+.btn-primary {
+  color: #ffffff;
+  background-color: #2a9fd6;
+  border-color: #2a9fd6;
+}
+.well_p {
+  display: flex;
+  align-items: center;
+  padding: 10px 19px;
+}
+
+.well_p h6 {
+  width: 60%;
+  margin: 0 !important;
+}
+
+.well_p a {
+  width: 30%;
+}
+.alert-warning {
+  color: #ffffff;
+  background-color: #ff8800;
+  border-color: #f05800;
+}
+
+.table-striped {
+  background-color: #181818;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: black !important;
+  color: #888888;
+  border-top: 1px solid #282828 !important;
+  border: none;
+  padding: 0.5rem 1.4rem !important;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td {
+  background-color: black !important;
+  color: #888888;
+  border-top: 1px solid #282828 !important;
+  border: none;
+  padding: 0.5rem 1.4rem !important;
+}
+
+.table-striped > tbody > tr:nth-child(even) > th {
+  color: #888888;
+  border-top: 1px solid #282828 !important;
+  border: none;
+  padding: 0.5rem 1.4rem !important;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td {
+  color: #888888;
+  border-top: 1px solid #282828 !important;
+  border: none;
+  padding: 0.5rem 1.4rem !important;
+}
+
+.table-responsive > .table {
+  background-color: #181818;
+}
+.table-bordered {
+  border: 1px solid #282828 !important;
+
+  /* border-bottom: 2px solid #282828 !important; */
+  /* border-bottom: 1px solid #282828 !important; */
+  /* border: none; */
+}
+
+.table-bordered > thead > tr > th {
+  color: #888888;
+  padding: 0.5rem 1.4rem !important;
+  border-bottom-width: 2px;
+  border: 1px solid #282828 !important;
+  border-bottom: 2px solid #282828 !important;
+  border-top: 0;
+}
+
+@media (max-width: 800px) {
+  .alert-success h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .alert-success h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .dsa .fs-2 {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .alert-success h2 {
+    font-size: 14px;
+  }
+  .well_p h6 {
+    width: 60%;
+  }
+  .well_p a {
+    width: 34%;
+    margin-left: 20px;
+  }
+}

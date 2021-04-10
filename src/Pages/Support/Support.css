@@ -1,0 +1,37 @@
+.sup_main .sup_well{
+    width: 170px !important;
+    height: 180px;
+}
+
+.sup_main .nav-link {
+    background: none !important;
+    color: #2a9fd6 !important;
+    padding: 3px 0 !important;
+    box-shadow: none !important;
+}
+
+.sup_main .tab-content {
+    width: 100%;
+}
+
+.dsa {
+    width: 94%;
+    margin: 0 auto;
+}
+
+#v-pills-newticket {
+    width: 100% !important;
+}
+
+@media (max-width:600px) {
+    .sup_main {
+        flex-direction: column;
+    }
+    .sup_well {
+        margin: 0 auto 1rem auto;
+    }
+} 
+
+
+
+

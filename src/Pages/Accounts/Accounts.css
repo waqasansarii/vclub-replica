@@ -1,0 +1,26 @@
+.mb_tb_view {
+  width: 100%;
+}
+
+/* .mb_tb_n {
+  margin-top: 101px !important;
+} */
+
+@media (max-width: 991px) {
+  .account_container .container {
+    max-width: 850px !important;
+  }
+  
+}
+
+@media (max-width: 880px) {
+    .mb_tb_view {
+        overflow-x: scroll;
+    }
+    .accounts_table {
+        width: max-content;
+        max-height: 600px;
+        overflow-y: scroll;
+    }
+  }
+  

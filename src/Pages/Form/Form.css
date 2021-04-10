@@ -1,0 +1,209 @@
+/* body {
+  background-color: #000;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  color: #d2d5d5;
+  width: 100%;
+  height: 100vh;
+} */
+
+.light_green {
+  color: #7cfc00;
+}
+
+.light_blue {
+  color: #a9deff;
+}
+
+.light_gray {
+  color: #d2d5d5;
+}
+
+.text-red {
+  color: red;
+}
+
+.max_input {
+  width: 450px;
+  height: 40px;
+}
+
+.full_input {
+  width: 217px;
+  height: 40px;
+}
+
+.input_half {
+  width: 110px;
+  height: 40px;
+}
+
+.input_half::placeholder {
+  color: gray;
+  font-weight: 400;
+  padding-left: 0.4rem;
+}
+
+.full_input::placeholder {
+  color: gray;
+  font-weight: 400;
+  padding-left: 0.4rem;
+}
+
+.mainForm {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  padding-top: 3.9rem;
+}
+
+.mainRegForm {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  padding-top: 3.9rem;
+  padding-left: 5rem;
+}
+
+.mainForm h6 {
+  font-weight: 500 !important;
+  font-size: 14px;
+}
+
+.form_section {
+  width: 100%;
+  margin-top: 2.2rem;
+}
+
+.form_section input {
+  margin: 0.5rem 0;
+  padding-left: 0.4rem;
+  border: 1px solid #aed1b2;
+  background: none;
+  border-radius: 5px;
+  color: #c8d2bf;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login_form {
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.captcha img {
+  height: 40px;
+  margin: 0 0 0 5px;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.form_buttons {
+  display: flex;
+}
+
+.form_buttons button {
+  min-width: 133px;
+  padding: 6px 12px !important;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 18px;
+  background: none;
+  margin: 0.5rem 4px;
+}
+
+.lgn_btn {
+  border: 2px solid #7cfc00 !important;
+}
+
+.reg_btn {
+  border: 2px solid #00a3df !important;
+}
+
+.feilds {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.register_form {
+  flex-direction: column;
+  width: 800px;
+  display: flex;
+}
+
+.register_form input {
+  margin-right: 1rem;
+}
+
+.reg_form_button button {
+  width: 210px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 18px;
+  background: none;
+  margin: 0.5rem 1rem;
+}
+
+.reg_form_button .reg_btn {
+  border: 2px solid #7cfc00;
+}
+
+.reg_feilds {
+  width: 300px;
+  margin-left: 1rem;
+}
+
+.reg_feilds a {
+  text-decoration: none;
+}
+
+.badge-primary {
+  background-color: #2a9fd6;
+  padding: 3px 7px;
+  min-width: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .login_form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .register_form {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainRegForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    text-align: center;
+  }
+  .register_form {
+    margin: 0 auto;
+    width: 80% !important;
+  }
+  .mainRegForm .d-flex {
+    flex-direction: column;
+  }
+  .mainRegForm .d-flex input {
+    width: 100%;
+  }
+  .reg_feilds {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+}

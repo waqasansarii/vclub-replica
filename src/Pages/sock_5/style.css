@@ -1,0 +1,219 @@
+.country_table_main_div{
+    width: 1120px;
+    margin: 10px auto;
+    /* border: 2px solid blue; */
+   padding-top: 15px;
+   border: 1px solid #282828;
+   
+}
+.head_div{
+    width: 1120px;
+    margin: 100px auto;
+   margin-bottom: 50px ;
+}
+.show_filter_link{
+    width: fit-content;
+
+}
+.show_filter_link>p{
+    color: #2a9fd6;
+}
+.show_filter_link>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+}
+.head_div>h3{
+    color: white;
+    font-weight: 300 !important;
+}
+.country_table_ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0px ;
+    padding: 5px ;
+    list-style: none;
+  /* border: 2px solid gray; */
+}
+.country_div{
+    border: 1px solid #282828;
+
+    background-color: #181818;
+}
+.country_div>p{
+    color: #888888;
+    margin-left: 20px;
+    margin-bottom: 5px !important;
+    /* margin-top: 20px !important; */
+    padding-top: 10px;
+}
+.country_table_ul>li>.main_list_div{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 0px ;
+    width: 355px !important;
+    justify-content: space-between;
+
+}
+.country_table_ul>li>.main_list_div>div{
+    display: flex;
+}
+.sub_list{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid brown; */
+    width: 320px;
+    margin-left: 20px;
+}
+.sub_list>div{
+    display: flex;
+}
+.cName_checkbox_div>input{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.cName{
+    color: #2a9fd6;
+   margin-left: 5px;
+}
+.cName:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+.plus{
+    color: #2a9fd6;
+    padding-right: 4px 1px;
+    border-radius: 9px;
+    width: fit-content;
+    height: fit-content;
+}
+.plus:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.Country_code_div{
+    color: #888888;
+}
+.Country_code_div>p{
+    margin-right: 7px;
+}
+
+.go_btn>p{
+   color: #2a9fd6;
+   padding: 15px;
+}
+.go_btn>p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* filter form css  */
+
+.filter_form_main_div{
+    width: 1120px;
+    margin: 0px auto;
+    color: #888888;
+    margin-bottom: 50px;
+
+}
+.filterFormm{
+    /* border: 2px solid red; */
+    background-color: #181818;
+    
+}
+.filter_input{
+    padding: 5px;
+}
+.sock_search{
+    padding: 10px 18px;
+}
+.responsive{
+    margin-bottom: 50px;
+    margin-left: 90px;
+}
+/* sock coin table css  */
+
+.sock_table_container{
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.sock_buy_table>div{
+    /* flex-direction: column; */
+    display:  flex;
+    
+}
+
+.sock_buy_table>div>p{
+    color: #2a9fd6;
+    margin-bottom: 5px !important;
+}
+.sock_buy_table>div>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1125px){
+    .country_table_main_div,.head_div,.filter_form_main_div{
+        width: 940px;
+    }
+    .country_table_ul>li>.main_list_div{
+        width: 300px !important;
+    }
+    .sub_list{
+        width: 210px;
+        margin-left: 10px ;
+    }
+}
+
+@media screen and (max-width:980px){
+    .country_table_main_div,.head_div,.filter_form_main_div{
+        width: 650px;
+    }
+    .country_table_ul>li>.main_list_div{
+        width: 210px !important;
+        font-size: .9em ;
+    }
+    .sub_list{
+        width: 170px;
+        margin-left: 10px ;
+    }
+}
+@media screen and (max-width:730px){
+    .filter_form_main_div{
+        width: 95%;
+        /* border: 2px solid blue; */
+    }
+    .filter_input{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:689px){
+    .country_table_main_div,.head_div{
+        width: 97%;
+    }
+    .country_table_ul>li>.main_list_div{
+        width: 200px !important;
+        font-size: .9em ;
+    }
+    .sub_list{
+        width: 150px;
+        margin-left: 10px ;
+    }
+}
+
+@media screen and (max-width:420px){
+    .filter_form_main_div{
+        width: 95%;
+        font-size: .8em !important;
+        /* border: 2px solid blue; */
+    }
+    .filter_input{
+        width: 100% !important;
+        padding: 1px !important;
+    }
+}

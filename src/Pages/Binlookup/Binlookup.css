@@ -1,0 +1,45 @@
+.bin_heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 15px;
+}
+
+.label-info {
+    background-color: #9933cc;
+    color: white;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+.bin_label {
+    margin-top: -12px;
+}
+
+.bin_textarea {
+  padding: 0px !important;
+}
+textarea::placeholder {
+    color: #888888 !important;
+    padding: 0px !important;
+  margin: 0 !important;
+}
+
+.pannel_button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 2rem 0 0rem 0;
+}
+
+.bins_button {
+  color: #ffffff;
+  background-color: #2a9fd6;
+  border-color: #2a9fd6;
+}
+
+.bins_button:hover {
+  color: #ffffff;
+  background-color: #2386b4;
+  border-color: #1f79a3;
+}

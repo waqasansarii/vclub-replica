@@ -1,0 +1,174 @@
+.dumps_main_div{
+    width: 1120px;
+    margin: 100px auto;
+}
+.Dumphead_div{
+    border-bottom: 1px solid rgb(92, 92, 92);
+    padding-bottom: 15px;
+}
+.Dumphead_div>h3{
+    color: white;
+}
+
+.dumps_pagination{
+    margin-bottom: -80px !important;
+}
+.dumps_pagination_bottom{
+    margin-top: 80px !important;
+    margin-bottom: 60px !important;
+}
+
+/* input table css  */
+
+.dumps_buy_inTable_main_div{
+    width: 1120px;
+    margin: 100px auto;
+    margin-bottom: 70px;
+}
+.dumps_input_table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #282828;
+    background-color: #181818;
+}
+.dumps_input_table> thead tr th ,.dumps_input_table> tbody tr td {
+    border: 1px solid #282828;
+    color: #888888;
+ }
+ .dumps_input_table>thead>tr>th:nth-child(1){
+    width: 250px;
+    padding: 5px;
+ }
+ .dumps_input_table>tbody>tr>td:nth-child(2){
+    padding: 5px;
+    padding-bottom: 20px;
+ }
+ .dumps_input_table>tbody>tr>td:nth-child(3){
+    padding: 5px;
+    padding-bottom: 20px;
+ }
+ 
+ .two_td{
+     width: 200px ;
+ }
+ .dumps{
+     width: 300px;
+ }
+ .dumps2{
+     width:  auto;
+ }
+ 
+ .dumps_input_table>tbody>tr>td{
+    padding:  5px;
+    font-size: .97em;
+ }
+ .odd{
+    background-color: #080808;
+ }
+ .dumps_input_table >tbody>tr>td>ul>li> input{
+     width: 150px ;
+     margin-left: 5px;
+     outline: none;
+     border: none;
+     border-radius: 4px;
+ }
+ .dumps_input_table >tbody>tr>td>ul>li> select{
+    /* width: 150px !important; */
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+ .dumps_input_table >tbody>tr>td>ul>li> input:focus{
+  box-shadow: 0px 0px 10px rgb(111, 111, 202);
+}
+.dumps_input_table >tbody>tr>td>ul>li> select:focus{
+    box-shadow: 0px 0px 10px rgb(111, 111, 202);
+  }
+ .dumps_input_table >tbody>tr>td>ul>li> p{
+    width: 80px !important;
+ }
+ .database_select{
+     width: 100%;
+ }
+ 
+
+ /* dumps coin table css  */
+
+.dump_coin_main_div{
+    width: 1120px;
+    margin: -50px auto;
+}
+ .dumps_coin_table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #282828;
+    background-color: #181818;
+ }
+
+ .dumps_coin_table> thead tr th  {
+    border: 1px solid #282828;
+    color: #888888;
+    padding: 4px;
+    /* padding-right: 5px; */
+}
+.dumps_coin_table> tbody tr td {
+     /* padding-right: 5px; */
+     font-size: .8em;
+     border: 1px solid #282828;
+    color: #888888;
+    padding: 8px 8px 25px  5px;
+ }
+ .font_size{
+     font-size: 1em !important;
+ }
+ .font_size>img:hover{
+     cursor: pointer;
+ }
+
+ .quantity_inp{
+     width: 20px;
+     padding: 0px 4px;
+ }
+.bin_link{
+    display: flex;
+}
+
+@media screen and  (max-width:1125px ){
+    .dumps_main_div,.dumps_buy_inTable_main_div,.dump_coin_main_div{
+        width: 940px;
+    }
+}  
+@media screen and (max-width:990px){
+    .dumps_main_div{
+        width: 730px;
+    }
+    .dump_coin_main_div{
+        width: 95%;
+        overflow-x: scroll;
+        margin-bottom: 80px;
+    }
+    .dumps_coin_table{
+        width: 1120px;
+    }
+    .dumps_buy_inTable_main_div{
+        overflow-x: scroll;
+        width: 95%;
+    }
+ }
+ @media screen and (max-width:765px){
+    .dumps_main_div{
+        width: 99%;
+        padding: 0px 20px;
+    }
+    
+ }
+
+ @media screen and (max-width:440px){
+     .dump_table_div{
+         overflow-x: scroll;
+     }
+ }
+
